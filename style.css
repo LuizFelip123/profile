@@ -3,7 +3,8 @@
 :root{
 	--main-background: #0b0c0f;
 	--main-fonts-color: #fff;
-	--main-decor-color:#00a9e2;
+	--main-decor-color:#e00101;
+  --main-decor-color-sec:#fd0227 ;
     --main-header-background:#21252e;
 	--main-font-family: 'Poppins', sans-serif;
 }
@@ -93,7 +94,7 @@ a.nav-link{
 }
 
 #home .filter{
-	background: url('https://images.unsplash.com/photo-1544099858-75feeb57f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;
+	background: url('https://t4.ftcdn.net/jpg/05/46/10/15/360_F_546101577_7eZax3OCPZ1x8aST0oVsnDfX2OzjBsGr.jpg') no-repeat;
 	background-size: cover;
 	background-position:center;
     position: absolute;
@@ -195,10 +196,10 @@ a.nav-link{
 	display: flex;
 	flex-direction: column;
 	margin: 20px;
-	width: 200px;
-	height:250px;
+	width: 280px;
+	height:280px;
 	border-radius:12px;
-    background:var(--main-decor-color);
+  background: linear-gradient(var(--main-decor-color), var(--main-decor-color-sec));
 }
 
 .card img{
@@ -225,7 +226,7 @@ a.nav-link{
 }
 
 .card:hover{
-	box-shadow: 0 0 1.5rem gray;
+	box-shadow: 0 0 1.5rem #fe0101;
 }
 
 /*──────────────────
@@ -241,6 +242,7 @@ a.nav-link{
 	align-items: center;
 	justify-content: center;
 	color: var(--main-fonts-color);
+  background: var(--main-background) ;
 }
 	
 #contact p{
@@ -272,7 +274,6 @@ footer {
 	font-size: 1rem;
 	letter-spacing: 1px;
     text-decoration: none;
-	font-family: var(--main-font-family);
 }
 
 .copyright a:hover{
