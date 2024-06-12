@@ -229,6 +229,54 @@ a.nav-link{
 	box-shadow: 0 0 1.5rem #fe0101;
 }
 
+/*
+project 2
+*/
+
+
+#project2{
+	margin-top:100px;
+    height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	text-align:center;
+	color: var(--main-fonts-color);
+}
+#project2 h3{
+    padding-top: 70px;
+}
+#project2 p{
+	font-family: var(--main-font-family);
+	font-size:1.2rem;
+	padding: 10px;
+}
+
+
+/*
+project 2
+*/
+
+
+#project3{
+	margin-top:100px;
+    height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	text-align:center;
+	color: var(--main-fonts-color);
+}
+#project3 h3{
+    padding-top: 70px;
+}
+#project3 p{
+	font-family: var(--main-font-family);
+	font-size:1.2rem;
+	padding: 10px;
+}
 /*──────────────────
       Contact
 ──────────────────*/
